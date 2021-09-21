@@ -56,3 +56,26 @@ body {
   border-radius: 5px;
   background-color: rgb(241, 114, 114);
 }
+
+@media only screen and (max-width: 1000px) {
+  .result-true-false {
+    height: 25px;
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .result-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+ 
+}
+
+@media only screen and (max-width: 400px) {
+  .result-true-false {
+    height: 50px;
+  }
+}
